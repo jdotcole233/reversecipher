@@ -6,7 +6,7 @@ def run():
     start = True
     while start:
         try:
-            choice = int(input("Choose:\n1.Encrpypt using reverse cipher\n2.Quit:\n> "))
+            choice = int(input("Choose:\n1.Encrypt using reverse cipher\n2.Quit:\n> "))
             if choice == 1:
                 user_input = userinput()
 
